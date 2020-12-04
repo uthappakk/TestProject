@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Value entered is:Selenium]]>
+    </line>
+    <line>
+      <![CDATA[Searched results are displayed]]>
+    </line>
+    <line>
+      <![CDATA[Value entered is:Java]]>
+    </line>
+    <line>
+      <![CDATA[Searched results are displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55270" started-at="2020-12-04T05:03:19Z" finished-at="2020-12-04T05:04:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55270" started-at="2020-12-04T05:03:19Z" finished-at="2020-12-04T05:04:14Z">
+      <class name="boot.DatasProvider">
+        <test-method status="PASS" signature="setup()[pri:0, instance:boot.DatasProvider@31d3c314]" name="setup" is-config="true" duration-ms="48970" started-at="2020-12-04T10:33:19Z" finished-at="2020-12-04T10:34:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testData(java.lang.String)[pri:0, instance:boot.DatasProvider@31d3c314]" name="testData" duration-ms="3115" started-at="2020-12-04T10:34:08Z" data-provider="DP" finished-at="2020-12-04T10:34:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Value entered is:Selenium]]>
+            </line>
+            <line>
+              <![CDATA[Searched results are displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testData -->
+        <test-method status="PASS" signature="testData(java.lang.String)[pri:0, instance:boot.DatasProvider@31d3c314]" name="testData" duration-ms="1782" started-at="2020-12-04T10:34:11Z" data-provider="DP" finished-at="2020-12-04T10:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Java]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Value entered is:Java]]>
+            </line>
+            <line>
+              <![CDATA[Searched results are displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:boot.DatasProvider@31d3c314]" name="tearDown" is-config="true" duration-ms="1158" started-at="2020-12-04T10:34:13Z" finished-at="2020-12-04T10:34:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- boot.DatasProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
